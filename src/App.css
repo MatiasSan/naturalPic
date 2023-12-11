@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+  font-family: Roboto, sans-serif;
+  color: #262523;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0rem;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  max-width: 100vw;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 5rem;
+  margin-bottom: 2rem;
+}
+
+.navbar {
+  display: flex;
+  height: auto;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.navbarSectionMain {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 2rem;
+  margin-left: 1rem;
+  color: #fafafa;
+}
+
+.navbarSection2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 2rem;
+  margin-right: 1rem;
+  color: #fafafa;
+}
+
+.navbarSection2:hover {
+  cursor: pointer;
+}
+
+.link {
+  min-width: 7rem;
+  text-align: center;
+  justify-items: center;
+}
+
+h3 {
+  margin: 0;
+}
+
+.galeriaContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  min-width: 20rem;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+  min-height: 100%;
+  padding: 3rem;
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.3rem;
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.imageContainer img {
+  height: 500px;
+  transition: transform 0.5s ease;
+}
+
+.imageDescription {
+  font-size: 0.8rem;
+  position: absolute;
+  color: #fafafa;
+  border-radius: 5px;
+  margin-top: 200px;
+  max-width: 250px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.heartIcon {
+  position: absolute;
+  margin-bottom: 220px;
+  margin-left: 220px;
+}
+
+.iconButton {
+  background-color: transparent;
+  border: none;
+}
+
+h5 {
+  margin: 0;
+  font-size: 1rem;
+}
